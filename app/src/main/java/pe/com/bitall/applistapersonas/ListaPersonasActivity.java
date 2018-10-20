@@ -22,7 +22,7 @@ public class ListaPersonasActivity extends AppCompatActivity {
 
         rvPersonas = findViewById(R.id.rvPersonas);
 
-        //Necesitamos lo siguiente:
+        //Necesitamos lo siguiente para crear una lista de tarjetas:
         //1. Administrador de Diseño
         LinearLayoutManager layoutManager = new LinearLayoutManager(ListaPersonasActivity.this);
         rvPersonas.setLayoutManager(layoutManager);
